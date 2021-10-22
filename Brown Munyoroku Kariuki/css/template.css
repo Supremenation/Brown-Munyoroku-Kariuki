@@ -5506,7 +5506,11 @@ About us page
 }
 
 .about-us {
+<<<<<<< HEAD
 	background:url(../images/home3.png) no-repeat top center;
+=======
+	background:url(../images/home3.jpg) no-repeat top center;
+>>>>>>> dc8bf65 (Update template.css)
 	background-attachment:fixed;
 	background-size:cover;
 }
