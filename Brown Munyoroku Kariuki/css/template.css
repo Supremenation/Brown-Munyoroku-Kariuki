@@ -7,7 +7,7 @@
  3. Header Top Bar (Section)
  4. Main Slider (Section)
  5. Site Features (Section)
- 6. Us (Section)
+ 6. About Us (Section)
  7. Statistic (Section)
  8. Services (Section)
  9. Tabs (Section)
@@ -2181,7 +2181,7 @@ box-shadow: 0px 21px 69px -33px rgba(18,17,88,0.34);
   left: -370px;
   right: 0;
   top: 100%;
-  background:url(../images/about-us-bg.png) no-repeat;
+  background:url(../images/home.jpg) no-repeat;
 }
 
 @media screen and (max-width: 767px) {
