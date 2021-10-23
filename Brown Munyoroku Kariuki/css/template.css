@@ -7,7 +7,7 @@
  3. Header Top Bar (Section)
  4. Main Slider (Section)
  5. Site Features (Section)
- 6. About Us (Section)
+ 6. Us (Section)
  7. Statistic (Section)
  8. Services (Section)
  9. Tabs (Section)
@@ -2116,17 +2116,17 @@ box-shadow: 0px 21px 69px -33px rgba(18,17,88,0.34);
 
 /*-----------------------------------------------------------------------------------
 
- [About us (section)]
+ [us (section)]
 
- # about us container
+ # us container
  # typography
  # features (class)
  # box (class)
  # font awesome icons
 
 -----------------------------------------------------------------------------------*/
-/* About us container */
-.site-about {
+/* us container */
+.site-{
   margin: 0;
   padding:90px 0 200px 0;
   display: block;
@@ -2135,17 +2135,17 @@ box-shadow: 0px 21px 69px -33px rgba(18,17,88,0.34);
 }
 
 @media screen and (max-width: 767px) {
-  .site-about {
+  .site-{
     padding-top: 30px;
   }
 }
 
-.site-about .left-colom {
+.site-.left-colom {
 	float:left;
 	width:90%;
 }
 
-.site-about .left-colom h3{
+.site-.left-colom h3{
 	text-align:right;
 	font-size:27px;
 	line-height:1.5;
@@ -2156,22 +2156,22 @@ box-shadow: 0px 21px 69px -33px rgba(18,17,88,0.34);
 }
 
 @media screen and (max-width: 767px) {
-	.site-about .left-colom {
+	.site-.left-colom {
 		width:100%;
 	}
 	
-  .site-about .left-colom h3{
+  .site-.left-colom h3{
 	text-align:center;
 	font-size:22px;
  }
 }
 
-.site-about .left-colom figure {
+.site-.left-colom figure {
 	text-align:right;
 }
 
-.site-about .left-colom:after{
-  /* about section image */
+.site-.left-colom:after{
+  /* section image */
   content: "";
   position: absolute;
   max-width:900px;
@@ -2185,20 +2185,20 @@ box-shadow: 0px 21px 69px -33px rgba(18,17,88,0.34);
 }
 
 @media screen and (max-width: 767px) {
-	.site-about .left-colom:after{
-  /* about section image */
+	.site-.left-colom:after{
+  /* section image */
   display:none;
   }
 }
 
 
-.site-about .right-colom {
+.site-.right-colom {
 	float:left;
 	width:100%;
 	text-align:left;
 }
 
-.site-about p {
+.site-p {
   /* Paragraph */
   color: #828282;
   font-family: inherit;
@@ -2210,31 +2210,31 @@ box-shadow: 0px 21px 69px -33px rgba(18,17,88,0.34);
 }
 
 @media screen and (max-width: 767px) {
-  .site-about p {
+  .site-p {
 	text-align:center;
 	}
 	
-	.site-about .right-colom {
+	.site-.right-colom {
 	text-align:center;
 	}
 }
 
-.site-about h1 {
+.site-h1 {
   /* H1 heading */
   /*margin-bottom: 50px;*/
 }
 
-.site-about h2 {
+.site-h2 {
   /* H2 heading */
   /*margin-bottom: 10px;*/
 }
 
-.site-about .more-text {
+.site-.more-text {
 	text-align:left;
 }
 
 @media screen and (max-width: 767px) {
-  .site-about .more-text {
+  .site-.more-text {
 	text-align:center;
 }
 }
@@ -5494,7 +5494,7 @@ box-shadow: 0px 21px 69px -10px rgba(18,17,88,0.82);
 
 /*-----------------------------------------------------------------------------------
 
-About us page
+us page
 
 -----------------------------------------------------------------------------------*/
 
@@ -5507,9 +5507,9 @@ About us page
 
 .about-us {
 <<<<<<< HEAD
-	background:url(../images/home3.png) no-repeat top center;
+	background:url(../images/home.jpg) no-repeat top center;
 =======
-	background:url(../images/home3.jpg) no-repeat top center;
+	background:url(../images/home.jpg) no-repeat top center;
 >>>>>>> dc8bf65 (Update template.css)
 	background-attachment:fixed;
 	background-size:cover;
