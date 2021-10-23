@@ -6255,7 +6255,7 @@ Services page
 
 /* Banner section */
 .services {
-	background:url(../images/service-page-banner.jpg) no-repeat top center;
+	background:url(../images/home.jpg) no-repeat top center;
 	background-attachment:fixed;
 	background-size:cover;
 }
